@@ -163,3 +163,9 @@ footer {
         display: none;
     }
 }
+
+@media only screen and (max-width:560px) {
+    .topnavigation {
+        display: none;
+    }
+}
