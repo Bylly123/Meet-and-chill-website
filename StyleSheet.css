@@ -42,6 +42,35 @@ body {
     border-color: #3a6da5;
 }
 
+.topnavig {
+    margin: 0;
+    background: black;
+    display: inline-block;
+    padding: 30px;
+    height: 100%;
+}
+
+.topnavig a {
+    list-style-type: none;
+    display: list-item;
+    text-decoration: none;
+    margin: 20px -30px;
+    border: 2px solid;
+    padding: 10px 20px;
+    color: whitesmoke;
+    border-color: purple;
+    transition: 0.5s;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.topnavig a:hover {
+    padding: 50px;
+}
+
+.topnavig a.active {
+    color: green;
+}
+
 .button1 {
     float: right;
     font-size: 15px;
