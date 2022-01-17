@@ -1,0 +1,130 @@
+body {
+    background: whitesmoke;
+    background: url(website_hintergrund.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topnavigation {
+    align-items: center;
+    background: black;
+    overflow: hidden;
+    display: block;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.topnavigation a {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid;
+    border-color: purple;
+    transition: 0.5s;
+}
+
+.topnavigation a.active {
+    color: green;
+}
+
+.topnavigation a:hover {
+    border-color: #3a6da5;
+}
+
+.button1 {
+    float: right;
+    font-size: 15px;
+    padding: 20px 60px;
+    background: black;
+    color: white;
+    border: 3px solid;
+    border-radius: 20px;
+    opacity: 65%;
+    text-align: center;
+    transition: 0.5s;
+    background-image: url(https://images.wallpaperscraft.com/image/single/neon_lights_dark_133133_240x400.jpg);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.button1:hover {
+    opacity: 100%;
+    padding: 100px 100px;
+    font-size: 20px;
+    transition: 0.5s;
+    text-align: right;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.membercount {
+    position: absolute;
+    margin: 25px 25px;
+    margin-top: 10px;
+    bottom: 0px;
+}
+
+.leftdialog {
+    margin: 15px 15px;
+    opacity: 75%;
+    width: 300px;
+    height: 520px;
+    background: rgb(22, 22, 22);
+    border: white;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+}
+
+.h2dialog {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.AGBs {
+    float: right;
+}
+
+.container {
+    display: flex;
+}
+
+.rulesdialog {
+    margin-top: 10px;
+    margin: 15px 15px;
+    opacity: 75%;
+    width: 700px;
+    height: 200px;
+    background: rgb(22, 22, 22);
+    border: white;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+}
+
+.rulesüberschrift {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    background: black;
+    color: white;
+}
