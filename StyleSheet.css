@@ -158,11 +158,21 @@ footer {
     color: white;
 }
 
+.bhbp {
+    height: 20rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .bhb {
     border: 1px solid rgb(47, 47, 219);
-    border-radius: 20px;
+    background: rgb(47, 47, 219);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
     width: 60px;
     height: 30px;
+    padding: 15px 70px;
 }
 
 .ph1 {
