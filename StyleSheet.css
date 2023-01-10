@@ -159,9 +159,13 @@ footer {
 }
 
 .bhbp {
-    height: 20rem;
+    height: 22rem;
     width: 80%;
     margin: 0 auto;
+}
+
+.fhobp {
+    display: flex;
 }
 
 .bhb {
