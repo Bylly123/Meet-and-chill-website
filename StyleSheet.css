@@ -158,6 +158,44 @@ footer {
     color: white;
 }
 
+.nav1 {
+    display: flex;
+    justify-content: center;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-top: 1px solid transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-left: 0;
+}
+
+.ul1 li {
+    padding: 5px 20px;
+}
+
+.ul1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul1 li {
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 250ms;
+}
+
+.ul1 li:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
 @media only screen and (min-width:560px) {
     .topnavig {
         display: none;
