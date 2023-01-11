@@ -1,4 +1,10 @@
+@font-face {
+    font-family: Bahnschrift;
+    src: url(fonts/BAHNSCHRIFT.TTF);
+}
+
 body {
+    font-family: Bahnschrift;
     background: whitesmoke;
     background: url(website_hintergrund.png) no-repeat center center fixed;
     -webkit-background-size: cover;
