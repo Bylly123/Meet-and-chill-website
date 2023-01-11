@@ -214,12 +214,15 @@ footer {
 }
 
 .ul1 li {
-    padding: 5px 20px;
+    padding: 0px;
+    box-sizing: border-box;
+    padding: 0px;
 }
 
 .ul1 a {
     color: white;
     text-decoration: none;
+    padding: 5px 20px;
 }
 
 .ul1 li {
