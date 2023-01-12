@@ -119,6 +119,7 @@ body {
     overflow: hidden;
     display: inline-block;
     color: white;
+    padding: 10px 10px 0px 20px;
 }
 
 .h2dialog {
@@ -146,6 +147,7 @@ body {
     overflow: hidden;
     display: inline-block;
     color: white;
+    padding: 10px 0px 0px 20px;
 }
 
 .rulesüberschrift {
