@@ -234,6 +234,10 @@ footer {
     border-bottom: 2px solid rgb(255, 255, 255);
 }
 
+.active {
+    color: rgb(179, 179, 179);
+}
+
 @media only screen and (min-width:560px) {
     .topnavig {
         display: none;
