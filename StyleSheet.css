@@ -6,7 +6,7 @@
 body {
     font-family: Bahnschrift;
     background: whitesmoke;
-    background: url(images/night-city.jpg) no-repeat center center fixed;
+    background: url(images/palm-trees.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -181,7 +181,7 @@ footer {
     color: white;
     border-radius: 25px;
     text-decoration: none;
-    padding: 15px 70px;
+    padding: 15px 50px;
 }
 
 .bhb:hover {
